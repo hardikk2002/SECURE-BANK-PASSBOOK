@@ -245,8 +245,8 @@ def window_reg(a):
         if(v4.get() != "" and v4.get()[:-11:-1] == "moc.liamg@"):
             msg = "Your One Time Password" + sentOtp + " (ALL RIGHTS RESERVED TO GLOBE-XS)  Regards Technical Team GLOBE-XS (India)"
 
-            username = 'studybuddy162@gmail.com'
-            password = 'Aryant@123'
+            username = 'xyz@gmail.com' # change username
+            password = 'pjadoihd'    # pass
 
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.ehlo()
@@ -856,7 +856,7 @@ def finish():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="11901811",
+            password="#own pass1",
             database="mydatabase"
         )
         mycs = mydb.cursor()
@@ -900,7 +900,7 @@ def validate2():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="11901811",
+        password="#ownpass",
         database="mydatabase"
     )
     mycs = mydb.cursor()
